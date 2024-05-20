@@ -20,6 +20,7 @@ const config = {
     extend: {
       backgroundImage: {
         'main-pattern': "url('/background.png')",
+        'glorysmith': "url('/glorysmith_background.gif')",
       },
       colors: {
         primary: {

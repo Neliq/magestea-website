@@ -21,6 +21,15 @@ const Footer = () => {
           <p>Kraków</p>
         </div>
       </div>
+      <p className="mb-4 text-secondary-500">
+        Site by{" "}
+        <a
+          className="underline hover:text-secondary-400"
+          href="https://www.koszyka.com/"
+        >
+          Jakub Koszyka
+        </a>
+      </p>
     </div>
   );
 };
