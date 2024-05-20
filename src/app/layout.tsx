@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto_Mono, Nunito_Sans } from "next/font/google";
+import { Roboto_Mono, Nunito_Sans, Pirata_One } from "next/font/google";
 import "./globals.css";
 
 // Setting up fonts
@@ -9,8 +9,9 @@ const sans = Nunito_Sans({
   variable: "--font-sans",
 });
 
-const mono = Roboto_Mono({
+const mono = Pirata_One({
   subsets: ["latin"],
+  weight: "400",
   display: "swap",
   variable: "--font-mono",
 });

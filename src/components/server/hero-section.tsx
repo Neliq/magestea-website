@@ -14,16 +14,16 @@ const HeroSection = () => {
           alt="Logo"
           className="p-8 lg:p-0"
         />
-        <h1 className="mb-8 mt-32 text-4xl font-bold text-white drop-shadow-2xl lg:text-6xl">
+        <h1 className="font-regular mb-8 mt-32 font-mono text-4xl text-white drop-shadow-2xl lg:text-6xl">
           Want some tea?
         </h1>
-        <p className="max-w-xl text-lg text-slate-300">
+        <p className="max-w-xl font-mono text-xl text-slate-300">
           Mage’s Tea is a tea shop that offers a wide variety of teas from
           around the world. We have teas for every taste and occasion. Whether
           you’re looking for a relaxing cup of chamomile tea or an energizing
           matcha latte, we’ve got you covered.
         </p>
-        <Button className="mb-16 mt-8 bg-secondary-500 text-primary-800 hover:bg-secondary-300">
+        <Button className="mb-24 mt-8 bg-secondary-500 font-mono text-lg text-primary-800 hover:bg-secondary-300">
           Contact us
         </Button>
       </div>

@@ -10,7 +10,7 @@ const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="w-full bg-gradient-to-b from-black/50 via-black/25 to-transparent ">
+    <header className="w-full bg-gradient-to-b from-black/50 via-black/25 to-transparent font-mono ">
       <nav
         className="mx-auto flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -40,13 +40,13 @@ const NavBar = () => {
         <div className="hidden lg:flex lg:gap-x-12">
           <Link
             href="/"
-            className="text-lg font-semibold leading-6 text-secondary-500 hover:text-secondary-400"
+            className="text-xl font-light leading-6 text-secondary-500 hover:text-secondary-400"
           >
             Home
           </Link>
           <Link
             href="/games"
-            className="text-lg font-semibold leading-6 text-secondary-500 hover:text-secondary-400"
+            className="text-xl font-light leading-6 text-secondary-500 hover:text-secondary-400"
           >
             Games
           </Link>
@@ -58,7 +58,7 @@ const NavBar = () => {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-primary-800 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-primary-800 px-6 py-6 font-mono sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Mage&apos;s Tea</span>
@@ -84,13 +84,13 @@ const NavBar = () => {
               <div className="space-y-2 py-6">
                 <Link
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-secondary-500 hover:text-secondary-400"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-secondary-500 hover:text-secondary-400"
                 >
                   Home
                 </Link>
                 <Link
                   href="/games"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-secondary-500 hover:text-secondary-400"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-secondary-500 hover:text-secondary-400"
                 >
                   Games
                 </Link>
